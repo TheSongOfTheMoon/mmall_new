@@ -1,0 +1,34 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-31 13:59:43 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-07-31 14:53:26
+ */
+.header .logo{
+  position:absolute;/**改标签相当于一个钉子,会钉在提供秒面板的框里面,从此脱离页面，不参与其他框的位置,面板是定宽布局面板*/
+  left: 60px;
+  top: 34px;
+  display:block;/**块级元素*/
+  font-size: 36px;
+  color: #c60023;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.header .search-con{
+  padding: 40px 0 30px 250px;/*上右下左,而定宽布局去到哪里都是那么大*/
+}
+.header .search-con .search-input{
+  width: 550px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  padding-left:10px; 
+  border: 2px solid #c60023;
+}
+
+.header .search-con .search-btn{
+  position: absolute;
+  width: 80px;
+  height: 44px;
+}

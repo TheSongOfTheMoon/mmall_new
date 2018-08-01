@@ -1,0 +1,30 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-30 22:31:30 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-07-31 10:40:55
+ */
+.nav{
+  background: #eee;
+  height: 30px;
+  line-height: 30px;
+}
+/*用户部分*/
+.nav .user{
+  float: left;
+}
+.nav.user.login{
+  display: none;
+}
+/*导航链接部分*/
+.nav .user .link{
+  margin-right: 5px;
+}
+
+.nav .nav-list{
+  float:right;
+}
+.nav .nav-list .nav-item{
+  display: inline-block;/*行内块元素*/
+  margin-left: 5px;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= require('html-loader!./layout/header-common.html')%>
+  <title>项目测试啊</title>
+</head>
+<body>
+  <%= require('html-loader!./layout/nav.html')  %>
+  <%= require('html-loader!./layout/header.html')  %>
+  <div class="page-warp w">
+    <%= require('html-loader!./layout/nav-side.html')  %>
+    <div class="content with-nav">test</div>
+  </div>
+  <%= require('html-loader!./layout/footer.html')  %>
+</body>
+</html>

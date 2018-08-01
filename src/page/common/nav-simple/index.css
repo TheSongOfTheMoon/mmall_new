@@ -1,0 +1,20 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-30 21:06:05 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-07-30 21:11:49
+ */
+
+ .nav-simple{
+   height: 60px;
+   line-height: 60px;
+   border-bottom: 1px solid #ddd;/*下边界*/
+   background: #fff;/**区分与主体的区别*/
+ }
+
+ /*logo图标*/
+ .nav-simple .logo{
+   font-size: 26px;
+   font-weight: bold;
+   color:#c60023;
+ }

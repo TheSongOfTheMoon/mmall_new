@@ -1,0 +1,22 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-31 11:31:15 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-07-31 11:49:50
+ */
+.footer{
+  padding-bottom: 10px;/**下底线与我文本框的内容距离10px**/
+}
+.footer .links{
+  text-align: center;
+  color: #666;
+  line-height: 30px;
+}
+.footer .links .links{
+  padding: 0 10px;/*内边距*/
+}
+.footer .copyright{
+  text-align: center;/*使文本宽居中*/
+  color: #666;
+  line-height: 30px;/*该属性存在height的时候,随文本与height一致，可以随时高居中,当只有本身的时候,其高度为文本框高度*/
+}

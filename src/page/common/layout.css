@@ -1,0 +1,88 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-30 16:21:04 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-07-31 14:18:53
+ */
+ 
+ /*设置统一样式，去除边角边界,清除样式*/
+*{
+  margin: 0;/*内边框*/
+  padding: 0;/*外边框**/
+}
+body{
+  background: #f6f6f6;
+  font: 12px/1.5 tahoma,arial,Microsoft YaHei ,sans-serif;/**行边距离1.5,字体*/
+}
+li{
+  list-style: none;/**消除原点*/
+}
+image{
+  display:block;
+  border: none;
+}
+label{
+  cursor: pointer;/**设置了标签上的鼠标形状*/
+}
+input[type='checkbox']{
+  cursor: pointer;
+}
+
+/*定宽布局*/
+.w{
+  width:1080px;
+  margin:0 auto;/*保证乐儿与边缘无缝贴合*/
+  position: relative;/*设置相对定位的参照点*/
+  overflow: hidden;/*超出边界的不显示,同时清除浮动*/
+}
+
+/*全局通用样式*/
+.hide{/*隐藏类*/
+  display: none;
+}
+/*超链样式*/
+.link{
+  color: #999;
+  cursor: pointer;
+  text-decoration: none;/*无下划线*/
+}
+.link:hover{/*当连接被触碰*/
+  color: #e80012;
+}
+.link-text{
+  color: #999;
+  text-decoration: none;
+}
+/*btn通用*/
+.btn{
+  display: inline-block;/**/
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;/*与height保持一致，可以随时剧中*/
+  vertical-align: middle;/*防止样式冲突*/
+  background:#c60023;
+  font-size: 17px;
+  font-weight: bold;/*字体是否加粗*/
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-min{
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 0 10px;
+  /*迷你按钮,使用前继承按钮的特性class='btn btn-min'*/
+}
+/*布局加载--logo*/
+.loading{
+  margin: 0 auto;/*宽度剧中,因为跟随可视宽度，什么时候都再页面中间*/
+  display: block;/*布局*/
+  width: 150px;
+  height: 100px;
+  border: 1px solid #ddd;/*1px的灰色边界*/
+  border-radius: 5px;
+  background: url(../../image/色猫.gif) no-repeat;/*此处不能使用js的缩写*/
+  opacity: 0.6;/**透明度*/
+}

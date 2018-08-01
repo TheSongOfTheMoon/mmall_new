@@ -1,0 +1,25 @@
+/*
+ * @Author: 琼歌先生 
+ * @Date: 2018-07-31 17:59:15 
+ * @Last Modified by: lastName.琼歌先生
+ * @Last Modified time: 2018-08-01 10:29:07
+ */
+.nav-side{
+  float: left;
+  width: 130px;
+  min-height: 100px;
+}
+.nav-side .nav-item{
+  line-height: 25px;
+  font-size: 13px;
+}
+.nav-side .nav-item .link{
+  color: #888;
+}
+.nav-side .nav-item.active .link {/*这种追加响应模块比较容易失效,注意使用,同一个选择器的选择器的名称需要保证黏连跟紧*/
+  color: #c60023;
+}
+.content.with-nav{
+  float: left;
+  width: 950;
+}
